@@ -1,0 +1,97 @@
+/* Portfolio For U — réf. client 9SXQYI */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Manrope', -apple-system, 'Segoe UI', sans-serif;
+
+  --color-ink: #0f1512;
+  --color-ink-alt: #151d19;
+  --color-surface: #1a241f;
+  --color-fg: #eef0e8;
+  --color-fg-soft: #b3bcb3;
+  --color-fg-faint: #7d887f;
+  --color-herb: #c3d86e;
+  --color-herb-soft: #dfeaa9;
+  --color-herb-dim: #232d1c;
+  --color-copper: #d68a5c;
+  --color-line: #25302a;
+  --color-ok: #6fd39a;
+}
+
+:root {
+  --pfu-ref: "9SXQYI";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-ink);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-herb);
+  color: var(--color-ink);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* Grain léger façon papier de carte */
+.grain::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+
+.spin-slow {
+  animation: spin-slow 60s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin-slow { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* Liste à marqueur absolu (jamais de flex sur un li avec <strong> d'intro) */
+.dish-list li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.65;
+}
+
+.dish-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--color-herb);
+}
