@@ -1,0 +1,43 @@
+LICENCE D'UTILISATION - PORTFOLIO SUR MESURE
+Portfolio For U - https://portfolio-for-u.fr
+
+Reference client : 9SXQYI (demo interne - profil fictif)
+
+1. Titularite des droits
+Le code source, les feuilles de style, la structure et les elements graphiques de
+ce portfolio sont la propriete exclusive de Portfolio For U. La prestation
+n'emporte aucune cession de droits d'auteur.
+
+2. Etendue de la licence
+Portfolio For U concede au client, a compter du paiement integral, une licence
+d'utilisation personnelle, non exclusive, non cessible et non sous-licenciable,
+valable pour le monde entier et pour toute la duree legale de protection des
+droits d'auteur.
+
+Le client peut heberger ce portfolio a l'adresse de son choix, l'utiliser pour sa
+propre presentation professionnelle, et le modifier ou le faire modifier pour ses
+besoins propres.
+
+3. Restrictions
+Sont interdites la revente, la cession, la location ou la mise a disposition du
+code a un tiers, a titre gratuit ou onereux ; la reutilisation de ce code comme
+modele, gabarit ou base pour realiser d'autres sites, pour soi-meme ou pour
+autrui ; ainsi que la publication du code sur un depot public ou une place de
+marche.
+
+4. Mention d'auteur
+La mention indiquant que ce portfolio a ete realise par Portfolio For U doit etre
+conservee sur chaque page. Conformement a l'article L121-1 du Code de la propriete
+intellectuelle, le droit a la paternite de l'auteur est perpetuel, inalienable et
+imprescriptible : cette mention ne peut etre supprimee, masquee ni alteree, y
+compris en cas de modification du code.
+
+5. Contenus du client
+Les textes, photographies, logos et documents fournis par le client restent sa
+propriete pleine et entiere.
+
+6. Droit applicable
+La presente licence est soumise au droit francais et complete les conditions
+generales de vente disponibles sur https://portfolio-for-u.fr/cgv.html
+
+Contact : hello.portfolioforu@outlook.com
